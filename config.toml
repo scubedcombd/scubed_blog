@@ -1,0 +1,43 @@
+baseurl = "https://blog.scubed.com.bd/"
+copyright = "All rights reserved"
+disqusshortname = "scubedcombd"
+languagecode = "en-US"
+paginate = 5
+pluralizelisttitles = false
+theme = "hugo-theme-casper"
+title = "S Cubed Technologies"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/"
+weight = -120
+[[menu.main]]
+name = "Github repos"
+pre = "<h3>Follow us</h3>"
+url = "https://github.com/scubedcombd"
+weight = 100
+[[menu.main]]
+name = "Twitter timeline"
+url = "https://twitter.com/scubedcombd"
+weight = 101
+
+[params]
+author = "Sakib Sadman Shajib"
+authorlocation = "Dhaka, Bangladesh"
+authorwebsite = "https://sakibsadmanshajib.com/"
+authorbio = "a computer Engineering student, entrepreneur and a PC enthusiast living in Dhaka, Bangladesh."
+cover = "images/cover.jpg"
+description = "Where simplicity, sustainability, and security come together through technology and innovation."
+githubName = "scubedcombd"
+# googleAnalyticsUserID = ""
+hideHUGOSupport = true
+logo = "images/logo.png"
+twitterName = "scubedcombd"
+customFooterPartial = "netlify.html"
+
+[permalinks]
+post = "/:slug/"
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
